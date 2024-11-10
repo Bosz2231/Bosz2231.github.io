@@ -1,0 +1,44 @@
+body{
+    background-color: lightpink;
+}
+h1{
+    background-color: rgb(255, 0, 115);
+    text-align: center;
+    font-size: 350%;
+    align-content: center;
+    height: 70px;
+    border: 10px solid black;
+    border-radius: 30px;
+}
+p{
+    display: flex;
+    text-align: flex-start;
+    text-wrap: wrap;
+    font-size: 250%;
+}
+a{
+    display: flex;
+    text-align: flex-start;
+    text-wrap: wrap;
+    font-size: 250%;
+}
+p:hover{
+    color: rgb(234, 0, 255);
+}
+a:hover{
+    color : aqua;
+}
+img{
+    display: flex;
+    width: 30%;
+    border: 5px solid black;
+}
+img:hover{
+    width: 40%;
+    transition: 200ms;
+}
+.x{
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: space-evenly;
+}
