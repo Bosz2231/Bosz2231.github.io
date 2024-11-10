@@ -42,3 +42,11 @@ img:hover{
     flex-flow: row-reverse wrap;
     justify-content: space-evenly;
 }
+h2{
+    text-align: center;
+}
+ul{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
