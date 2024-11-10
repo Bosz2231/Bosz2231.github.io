@@ -1,4 +1,4 @@
-let score = Number(prompt("What's Your Test Score?"));
+//let score = Number(prompt("What's Your Test Score?"));
 if(score >= 0 && score < 50){
     console.log("Your grade is F");
 }else if(score >= 50 && score < 60){
